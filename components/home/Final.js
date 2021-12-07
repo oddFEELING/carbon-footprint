@@ -35,7 +35,7 @@ const Final = () => {
           data-aos='zoom-in-down'
           data-aos-delay='300'
         >
-          WHAT'S NEXT?
+          WHAT&apos;S NEXT?
         </h1>
       </div>
 

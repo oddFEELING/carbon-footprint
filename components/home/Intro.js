@@ -27,7 +27,7 @@ const Intro = () => {
           CARBON FOOTPRINT
         </h1>
         <h3 data-aos='fade-right' data-aos-delay='300'>
-          "Your contribution to global warming"
+          &quot;Your contribution to global warming&quot;
         </h3>
       </span>
 
