@@ -3,7 +3,7 @@ import Head from 'next/head';
 import useConvert from '../hooks/useConvert';
 import styles from '../styles/track.module.scss';
 
-const track = () => {
+const Track = () => {
   // user data state
   const [UserData, setUserData] = useState({
     house_hold_size: 1,
@@ -320,4 +320,4 @@ const track = () => {
   );
 };
 
-export default track;
+export default Track;
