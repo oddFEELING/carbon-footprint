@@ -47,7 +47,6 @@ const Track = () => {
           href='https://unpkg.com/aos@2.3.1/dist/aos.css'
           rel='stylesheet'
         ></link>
-        <script src='https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'></script>
       </Head>
       <h1>CARBON TRACKER</h1>
 

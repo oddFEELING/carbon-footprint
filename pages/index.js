@@ -61,11 +61,13 @@ export default function Home() {
     },
   ];
 
-  useEffect(async () => {
-    // alert('Some links do not work');
-    await axios
-      .get('/api/home_content')
-      .then((res) => setSliderContent(res.data));
+  useEffect(() => {
+    (async function () {
+      // alert('Some links do not work');
+      await axios
+        .get('/api/home_content')
+        .then((res) => setSliderContent(res.data));
+    })();
   }, []);
 
   return (

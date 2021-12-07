@@ -7,15 +7,17 @@ import axios from 'axios';
 const Final = () => {
   const [CardData, setCardData] = useState([]);
 
-  useEffect(async () => {
-    AOS.init({
-      duration: 1300,
-    });
+  useEffect(() => {
+    (async function () {
+      AOS.init({
+        duration: 1300,
+      });
 
-    await axios.get('/api/big_buttons').then((res) => {
-      console.log(res.data);
-      setCardData(res.data);
-    });
+      await axios.get('/api/big_buttons').then((res) => {
+        console.log(res.data);
+        setCardData(res.data);
+      });
+    })();
   }, []);
 
   return (

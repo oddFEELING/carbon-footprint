@@ -16,64 +16,68 @@ const Causes = () => {
   const containerRef = useRef();
   gsap.registerPlugin(ScrollTrigger);
 
-  useEffect(async () => {
-    // get data
-    await axios.get('/api/home_cards').then((res) => setSectionInfo(res.data));
+  useEffect(() => {
+    (async function () {
+      // get data
+      await axios
+        .get('/api/home_cards')
+        .then((res) => setSectionInfo(res.data));
 
-    // gsap animations
-    let container = gsap.utils.selector(containerRef.current);
-    const t1 = gsap.timeline({
-      delay: 3,
-      duration: 3,
-      ease: ' Power3.easeInOut',
-    });
-
-    //start animation
-    t1.to(container('#box_0'), {
-      scrollTrigger: {
-        trigger: container('#box_0'),
-        endTrigger: container('#box_3'),
-        end: 'bottom bottom',
-        start: 'top top',
-        end: 'top top',
-        pin: true,
-        toggleActions: 'restart pause reverse reset',
-        scrub: 1,
-      },
-    })
-      .to(container('#box_1'), {
-        scrollTrigger: {
-          trigger: container('#box_1'),
-          endTrigger: container('#box_3'),
-          end: 'bottom bottom',
-          start: 'top top',
-          pin: true,
-          toggleActions: 'restart pause reverse reset',
-          scrub: 1,
-        },
-      })
-      .to(container('#box_2'), {
-        scrollTrigger: {
-          trigger: container('#box_2'),
-          endTrigger: container('#box_3'),
-          end: 'bottom bottom',
-          start: 'top top',
-          pin: true,
-          toggleActions: 'restart pause reverse reset',
-          scrub: 1,
-        },
-      })
-      .to(container('box_3'), {
-        scrollTrigger: {
-          trigger: container('#box_3'),
-          endTrigger: container('#box_3'),
-          start: 'top top',
-          end: 'bottom bottom',
-          pin: true,
-          toggleActions: 'restart pause reverse reset',
-          scrub: 1,
-        },
+      // gsap animations
+      let container = gsap.utils.selector(containerRef.current);
+      const t1 = gsap.timeline({
+        delay: 3,
+        duration: 3,
+        ease: ' Power3.easeInOut',
       });
+
+      //start animation
+      t1.to(container('#box_0'), {
+        scrollTrigger: {
+          trigger: container('#box_0'),
+          endTrigger: container('#box_3'),
+          end: 'bottom bottom',
+          start: 'top top',
+          end: 'top top',
+          pin: true,
+          toggleActions: 'restart pause reverse reset',
+          scrub: 1,
+        },
+      })
+        .to(container('#box_1'), {
+          scrollTrigger: {
+            trigger: container('#box_1'),
+            endTrigger: container('#box_3'),
+            end: 'bottom bottom',
+            start: 'top top',
+            pin: true,
+            toggleActions: 'restart pause reverse reset',
+            scrub: 1,
+          },
+        })
+        .to(container('#box_2'), {
+          scrollTrigger: {
+            trigger: container('#box_2'),
+            endTrigger: container('#box_3'),
+            end: 'bottom bottom',
+            start: 'top top',
+            pin: true,
+            toggleActions: 'restart pause reverse reset',
+            scrub: 1,
+          },
+        })
+        .to(container('box_3'), {
+          scrollTrigger: {
+            trigger: container('#box_3'),
+            endTrigger: container('#box_3'),
+            start: 'top top',
+            end: 'bottom bottom',
+            pin: true,
+            toggleActions: 'restart pause reverse reset',
+            scrub: 1,
+          },
+        });
+    })();
   }, []);
 
   return (
