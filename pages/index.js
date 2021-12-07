@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Script from 'next/script';
 import Image from 'next/image';
 import main_1 from '../assets/images/m_slider_1.jpg';
 import main_2 from '../assets/images/m_slider_2.jpg';
@@ -77,7 +78,6 @@ export default function Home() {
           href='https://unpkg.com/aos@2.3.1/dist/aos.css'
           rel='stylesheet'
         ></link>
-        <script src='https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'></script>
       </Head>
       <div className={styles.logo}>
         <Image src={Logo} alt='' width='130' height='40' />
@@ -169,6 +169,7 @@ export default function Home() {
         <Sector />
         <Final />
       </main>
+      <Script src='https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'></Script>
     </div>
   );
 }

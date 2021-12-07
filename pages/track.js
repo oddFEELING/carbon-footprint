@@ -312,10 +312,7 @@ const Track = () => {
       </section>
 
       {/* ----- results ----- */}
-      <button className={styles.button} onClick={() => useConvert(UserData)}>
-        {' '}
-        Run tracker
-      </button>
+      <button className={styles.button}> Run tracker</button>
     </div>
   );
 };
