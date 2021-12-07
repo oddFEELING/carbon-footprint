@@ -1,4 +1,4 @@
-@use '../Theme.module.scss' as *;
+@use '../theme.module.scss' as *;
 
 .sector__container {
   @include Div(100vh, 80vw, row, color('color_4'));
