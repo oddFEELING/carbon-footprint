@@ -1,0 +1,137 @@
+@use '../theme.module.scss' as *;
+
+.container {
+  @include Div(auto, 100vw, column, transparent);
+  align-items: center;
+  justify-content: center;
+  font-style: $pr_font;
+  text-align: center;
+  color: color('color_2');
+  padding-top: 15vh;
+  padding-bottom: 3vh;
+  gap: 5vh;
+}
+
+.preamble {
+  font-size: clamp(1.2rem, 2vw, 7rem);
+  font-weight: 600;
+  font-family: $sc_font;
+}
+
+.main__title {
+  font-size: clamp(1.2rem, 3.5vw, 10rem);
+  color: color('color_3');
+  font-weight: 900;
+  letter-spacing: 0.3vw;
+  margin-top: -1vh;
+}
+
+.button__section {
+  @include Div(85vh, 100%, row, transparent);
+}
+
+.card__item {
+  @include Div(100%, 100%, column, transparent);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-top: 0 solid color('color_3');
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 7vh 2.5vw;
+  text-align: left;
+
+  &[bg='bg_1'] {
+    background-image: url('../../assets//images/ranking.jpg');
+  }
+
+  &[bg='bg_2'] {
+    background-image: url('../../assets//images/track.jpg');
+  }
+
+  &[bg='bg_3'] {
+    background-image: url('../../assets//images/learn_more.jpg');
+  }
+
+  h1 {
+    z-index: 2;
+    font-family: $pr_font;
+    font-size: clamp(1rem, 2.3vw, 6rem);
+    color: white;
+  }
+
+  h3 {
+    z-index: 2;
+    margin-bottom: 6vh;
+    font-weight: 500;
+    font-family: $sc_font;
+    font-style: italic;
+    font-size: clamp(0.6rem, 1vw, 6rem);
+  }
+
+  button {
+    width: 100%;
+    height: 8.5%;
+    z-index: 2;
+    font-family: $pr_font;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: clamp(0.6rem, 1vw, 6rem);
+    color: color('color_2');
+    border: 1.5px solid color('color_2');
+    background-color: transparent;
+    border-radius: 0.3vw;
+
+    &:hover {
+      background-color: rgba(color('color_2'), 0.2);
+    }
+  }
+}
+
+.card__item:hover {
+  transform-origin: bottom;
+  transform: scale(1.03);
+  border-top: 7px solid color('color_3');
+  z-index: 2;
+  border-radius: 10px 10px 0 0;
+}
+
+.card__item::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.7)
+  );
+}
+
+.card__item:hover::after {
+  animation: swing 1.3s ease-in-out forwards;
+}
+
+@keyframes swing {
+  0% {
+    right: 0;
+    width: 0;
+  }
+  35% {
+    right: 0;
+    width: 100%;
+  }
+  70% {
+    left: 0;
+    width: 0;
+  }
+  100% {
+    left: 0;
+    width: 10%0;
+  }
+}

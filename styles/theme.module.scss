@@ -1,0 +1,40 @@
+// Import Global fonts
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+//--------------------------------------->  font mixins
+$pr_font: 'Montserrat', sans-serif;
+$sc_font: 'Lora', serif;
+
+// primary font setter
+@mixin pr_font {
+  font-family: $pr_font;
+}
+
+// secondary font setter
+@mixin sc_font {
+  font-family: $sc_font;
+}
+
+//--------------------------------------->  color object
+
+$colors: (
+  'color_1': #111212,
+  'color_2': #d6d6d6,
+  'color_3': #7e4016,
+  'color_4': #640000,
+);
+
+// --> function to set the color
+@function color($color_name) {
+  @return map-get($colors, $color_name);
+}
+
+//--------------------------------------->  Theme creator
+
+@mixin Div($height, $width, $dir, $bg_color) {
+  width: $width;
+  height: $height;
+  display: flex;
+  flex-direction: $dir;
+  background-color: $bg_color;
+}

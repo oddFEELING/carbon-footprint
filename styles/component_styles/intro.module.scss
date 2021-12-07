@@ -1,0 +1,69 @@
+@use '../theme.module.scss' as *;
+
+.container {
+  @include Div(100vh, 100vw, column, transparent);
+  padding: 10vh 8vw;
+  padding-left: 15vw;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  font-family: $pr_font;
+  margin: 0;
+}
+
+.accent {
+  position: absolute;
+  right: 7vw;
+  color: color('color_2');
+  font-style: italic;
+  font-weight: 900;
+  letter-spacing: 4vw;
+  font-size: clamp(7rem, 17vw, 30rem);
+  color: rgba(color('color_2'), 0.03);
+}
+
+.title__section {
+  @include Div(30%, 100%, column, transparent);
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5vh;
+  color: color('color_2');
+
+  h1 {
+    font-weight: 800;
+    letter-spacing: 0.3vw;
+    color: color('color_3');
+    font-size: clamp(4rem, 4vw, 10rem);
+  }
+  h2 {
+    font-weight: 700;
+    letter-spacing: 0.3vw;
+    color: white;
+    font-size: clamp(1rem, 2.2vw, 10rem);
+  }
+  h3 {
+    font-weight: 400;
+    font-family: $sc_font;
+    font-style: italic;
+    font-size: clamp(1rem, 1.9vw, 10rem);
+  }
+}
+
+.content {
+  width: 75%;
+  margin-top: 7vh;
+  color: rgba(color('color_2'), 0.8);
+  font-weight: 300;
+  font-family: $sc_font;
+  font-size: clamp(0.5rem, 1.1vw, 10rem);
+}
+
+.foot {
+  width: 80%;
+  margin-top: 6vh;
+  color: rgba(white, 0.8);
+  font-weight: 300;
+  font-family: $sc_font;
+  font-style: italic;
+  font-size: clamp(0.5rem, 1.5vw, 10rem);
+}

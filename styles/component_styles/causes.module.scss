@@ -1,0 +1,110 @@
+@use '../theme.module.scss' as *;
+
+.container {
+  @include Div(auto, 100vw, column, transparent);
+}
+
+.item__box {
+  @include Div(100vh, 100vw, row, color('color_1'));
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+
+  &.left {
+    justify-content: flex-end;
+  }
+}
+
+.image__container {
+  @include Div(100%, 60%, row, transparent);
+  align-items: center;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.35);
+
+  &.left {
+    left: 0;
+  }
+}
+
+.main__image {
+  object-fit: cover;
+}
+
+.main__content {
+  @include Div(100%, 75%, column, transparent);
+  padding: 10vh 5vw;
+  padding-right: 25vw;
+  color: color('color_2');
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: $pr_font;
+  user-select: none;
+  gap: 8vh;
+  word-wrap: break-word;
+
+  &.left {
+    padding: 10vh 5vw;
+    padding-left: 25vw;
+    align-items: flex-end;
+  }
+}
+
+.accent {
+  font-weight: 800;
+  color: rgba(color('color_2'), 0.08);
+  font-size: clamp(4rem, 11vw, 30rem);
+  font-style: italic;
+  position: absolute;
+  right: -2vw;
+  top: 25vh;
+
+  &.left {
+    left: -2vw;
+  }
+}
+
+.content__title {
+  z-index: 10;
+  font-weight: 900;
+  font-size: clamp(3rem, 3.1vw, 10rem);
+  width: 70%;
+  margin-left: 2vw;
+  text-align: right;
+
+  &.left {
+    text-align: left;
+    margin-right: 2vw;
+  }
+}
+
+.content__desc {
+  font-family: $sc_font;
+  font-weight: 400;
+  font-style: italic;
+  text-align: right;
+  width: 70%;
+  margin-top: -8vh;
+  font-size: clamp(0.5rem, 1.4vw, 10rem);
+
+  &.left {
+    text-align: left;
+  }
+}
+
+.content__content {
+  font-family: $sc_font;
+  font-weight: 400;
+  text-align: right;
+  opacity: 0.8;
+  margin-left: 10%;
+  width: 60%;
+  font-size: clamp(0.5rem, 01vw, 10rem);
+
+  &.left {
+    text-align: left;
+    margin-right: 10%;
+  }
+}

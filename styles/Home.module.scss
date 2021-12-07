@@ -1,0 +1,128 @@
+@use 'theme.module.scss' as *;
+
+.header {
+  @include Div(100vh, 99vw, row, color('color_1'));
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__bar {
+  @include Div(5vh, auto, row, transparent);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 3vh;
+  right: 6vw;
+  top: 0;
+  gap: 3vw;
+  z-index: 10;
+  font-family: $pr_font;
+  font-weight: 600;
+}
+
+//-->  main swiper
+.header__main_swiper {
+  height: 100vh;
+  width: 50vw;
+  background-color: black;
+  user-select: none;
+}
+.main__slider_image {
+  object-fit: cover;
+}
+
+.image__holder {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  div {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.header__sect_two {
+  @include Div(100vh, 50%, column, transparent);
+}
+
+.header__nav_sect {
+  @include Div(80%, 100%, column, black);
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url('../assets/images/footprint.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 10% 0;
+  padding-right: 4vw;
+  text-align: right;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: clamp(1rem, 1.8vw, 10rem);
+    font-weight: 400;
+    font-family: $sc_font;
+    mix-blend-mode: exclusion;
+
+    b {
+      font-size: clamp(1rem, 4.3vw, 10rem);
+      font-weight: 900;
+      font-family: $pr_font;
+    }
+  }
+}
+
+// mini swiper
+.header__mini_swiper {
+  width: 100%;
+  height: 20%;
+}
+.captions {
+  @include Div(100%, 100%, row, white);
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-family: $sc_font;
+  user-select: none;
+  font-size: clamp(0.5rem, 0.9vw, 10rem);
+}
+
+.main {
+  background-color: color('color_1');
+  overflow: hidden;
+}
+
+.logo {
+  position: fixed;
+  z-index: 40;
+  left: 2vw;
+  top: 2vh;
+}
+
+.left__hero_text {
+  z-index: 30;
+  width: 35vw;
+  position: absolute;
+  right: 5vw;
+  top: 30vh;
+  color: color('color_2');
+  text-align: right;
+  font-size: clamp(1rem, 3.8vw, 10rem);
+  font-weight: 900;
+  font-family: $pr_font;
+  text-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
