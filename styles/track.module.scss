@@ -101,3 +101,58 @@
     box-shadow: inset 0px 0px 30px rgba(color('color_3'), 0.3);
   }
 }
+
+.result__container {
+  @include Div(90vh, 50vw, column, rgba(color('color_2'), 0.65));
+  border-radius: 10px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6)),
+    url(../assets/images/result.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: $pr_font;
+  word-wrap: break-word;
+  backdrop-filter: blur(3px);
+  box-shadow: 15px 30px 1140px rgba(160, 160, 160, 0.2);
+
+  h1 {
+    font-size: clamp(1rem, 2vw, 4rem);
+    font-family: $sc_font;
+    font-weight: 500;
+    color: rgba(color('color_2'), 0.8);
+    font-style: italic;
+  }
+
+  h3 {
+    font-size: clamp(1rem, 3vw, 4rem);
+    margin-bottom: 10%;
+    color: white;
+  }
+  b {
+    color: color('color_3');
+    font-size: clamp(1rem, 5.4vw, 10rem);
+  }
+}
+
+.res__close {
+  position: absolute;
+  bottom: 10vh;
+  width: 60%;
+  height: 7%;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: $pr_font;
+  border: none;
+  color: color('color_1');
+  background-color: rgba(color('color_2'), 0.4);
+
+  &:hover {
+    background-color: rgba(color('color_2'), 0.8);
+    color: color('color_4');
+  }
+}

@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
+import AOS from 'aos';
 import useConvert from '../hooks/useConvert';
 import styles from '../styles/track.module.scss';
 
 const Track = () => {
+  const [FootPrint, setFootPrint] = useState(0);
+  const [Result, setResult] = useState(false);
   // user data state
   const [UserData, setUserData] = useState({
     house_hold_size: 1,
@@ -27,6 +30,10 @@ const Track = () => {
     flight_dmst: 0,
   });
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   // functionto set values
   const setValue = (prop) => (event) => {
     setUserData({
@@ -35,8 +42,16 @@ const Track = () => {
     });
   };
 
-  /*Dynamic rendering after refactor */
+  function handleServe() {
+    setFootPrint(useConvert(UserData));
+    setResult(true);
+    console.log(UserData);
+  }
+  function reverseRes() {
+    setResult(false);
+  }
 
+  /*Dynamic rendering after refactor */
   return (
     <div className={styles.container}>
       <Head>
@@ -300,7 +315,7 @@ const Track = () => {
         {/* ----- domestic flight input ----- */}
         <div className={styles.input__container}>
           <p className={styles.input__symbol}>KM</p>
-          <p>Refridgerator</p>
+          <p>Domestic flights</p>
           <input
             className={styles.input}
             type='number'
@@ -311,7 +326,30 @@ const Track = () => {
       </section>
 
       {/* ----- results ----- */}
-      <button className={styles.button}> Run tracker</button>
+      <button className={styles.button} onClick={handleServe}>
+        {' '}
+        Run tracker
+      </button>
+      {Result ? (
+        <div
+          className={styles.result__container}
+          data-aos='zoom-in'
+          data-aos-offset='0'
+          data-aos-duration='800'
+          data-aos-ease='ease-out'
+        >
+          <h1>Your carbon footprint is </h1>
+          <h3>
+            <b>{FootPrint > 0 ? FootPrint : 0}</b> tonnes of CO2e
+          </h3>
+          <p>Check Full object in console</p>
+          <button className={styles.res__close} onClick={reverseRes}>
+            X Close
+          </button>
+        </div>
+      ) : (
+        ''
+      )}
     </div>
   );
 };

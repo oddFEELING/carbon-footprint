@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 const useScreen = () => {
   const [ScreenSIze, setScreenSIze] = useState(0);
   const [IsSmall, setIsSmall] = useState(false);
-
   useEffect(() => {
     setScreenSIze(window.innerWidth);
     // set hanlder

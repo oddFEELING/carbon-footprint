@@ -14,7 +14,6 @@ const Final = () => {
       });
 
       await axios.get('/api/big_buttons').then((res) => {
-        console.log(res.data);
         setCardData(res.data);
       });
     })();

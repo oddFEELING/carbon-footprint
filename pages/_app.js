@@ -5,7 +5,6 @@ import useScreen from '../hooks/useScreen';
 
 function MyApp({ Component, pageProps }) {
   const screen = useScreen();
-  console.log(screen);
   return (
     <>
       {screen ? (

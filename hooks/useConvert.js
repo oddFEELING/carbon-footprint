@@ -15,7 +15,6 @@ const useConvert = (props) => {
   };
 
   const UserInfo = props;
-  console.log(UserInfo);
   //--------------------------------------->   electric handler
   function handleElectric() {
     const fridgeTon = kwh(UserInfo.fridge_usage, 0.5);
@@ -76,7 +75,7 @@ const useConvert = (props) => {
     const domTon = 0.2443 * 0.001 * UserInfo.flight_dmst;
 
     //   get total
-    flight = intTon + domTon;
+    flight = (intTon + domTon) / 365;
   }
 
   //--------------------------------------->   main function
@@ -99,7 +98,7 @@ const useConvert = (props) => {
       flight;
   })();
 
-  return CARBON_TOTAL * 365;
+  return Math.floor(CARBON_TOTAL * 365);
 };
 
 export default useConvert;
