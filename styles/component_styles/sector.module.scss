@@ -29,21 +29,21 @@
 
   h1 {
     font-style: $pr_font;
-    font-weight: 800;
+    font-weight: 900;
     color: white;
     letter-spacing: 0.5vw;
-    font-size: clamp(1rem, 3.1vw, 10rem);
+    font-size: clamp(3rem, 3.3vw, 10rem);
   }
 
   p {
     width: 75%;
-    font-size: clamp(0.5rem, 0.9vw, 4rem);
+    font-size: clamp(0.85rem, 0.95vw, 4rem);
     color: color('color_2');
   }
   ul {
     list-style: square;
     direction: rtl;
     color: color('color_2');
-    font-size: clamp(0.5rem, 0.8vw, 4rem);
+    font-size: clamp(0.8rem, 0.9vw, 4rem);
   }
 }
