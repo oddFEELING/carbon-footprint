@@ -42,8 +42,12 @@ const Track = () => {
     });
   };
 
-  function handleServe() {
+  //   ]effect to update footprint
+  useEffect(() => {
     setFootPrint(useConvert(UserData));
+  }, [UserData]);
+
+  function handleServe() {
     setResult(true);
     console.log(UserData);
   }
