@@ -1,6 +1,6 @@
 import React from 'react';
 
-const useConvert = (props) => {
+const convert = (props) => {
   let CARBON_TOTAL = 0;
   let electric;
   let entertainment;
@@ -101,4 +101,4 @@ const useConvert = (props) => {
   return Math.floor(CARBON_TOTAL * 365);
 };
 
-export default useConvert;
+export default convert;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import AOS from 'aos';
-import useConvert from '../hooks/useConvert';
+import convert from '../hooks/convert';
 import styles from '../styles/track.module.scss';
 
 const Track = () => {
@@ -44,7 +44,7 @@ const Track = () => {
 
   //   ]effect to update footprint
   useEffect(() => {
-    setFootPrint(useConvert(UserData));
+    setFootPrint(convert(UserData));
   }, [UserData]);
 
   function handleServe() {
