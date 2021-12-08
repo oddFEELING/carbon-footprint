@@ -26,7 +26,6 @@ const Causes = () => {
       // gsap animations
       let container = gsap.utils.selector(containerRef.current);
       const t1 = gsap.timeline({
-        delay: 3,
         duration: 3,
         ease: ' Power3.easeInOut',
       });
@@ -123,7 +122,7 @@ const Causes = () => {
             {/* ----- content section ----- */}
             <div
               data-aos='fade-up'
-              data-aos-offset='600'
+              data-aos-offset='200'
               className={
                 alignLeft
                   ? `${styles.left} ${styles.main__content}`

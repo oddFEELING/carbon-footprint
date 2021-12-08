@@ -1,7 +1,7 @@
 @use 'theme.module.scss' as *;
 
 .header {
-  @include Div(100vh, 99vw, row, color('color_1'));
+  @include Div(100vh, 100%, row, color('color_1'));
   position: relative;
   align-items: center;
   justify-content: center;

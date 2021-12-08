@@ -1,7 +1,7 @@
 @use '../theme.module.scss' as *;
 
 .container {
-  @include Div(100vh, 100vw, column, transparent);
+  @include Div(100vh, 100%, column, transparent);
   padding: 10vh 8vw;
   padding-left: 15vw;
   align-items: flex-start;

@@ -1,7 +1,7 @@
 @use '../theme.module.scss' as *;
 
 .container {
-  @include Div(auto, 100vw, column, transparent);
+  @include Div(auto, 100%, column, transparent);
   align-items: center;
   justify-content: center;
   font-style: $pr_font;
