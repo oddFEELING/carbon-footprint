@@ -98,7 +98,7 @@ const convert = (props) => {
       flight;
   })();
 
-  return Math.floor(CARBON_TOTAL * 365);
+  return (CARBON_TOTAL * 365).toFixed(3);
 };
 
 export default convert;

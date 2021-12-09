@@ -14,7 +14,7 @@ export default function handler(req, res) {
       key: 2,
       title: `REFUSE/WASTE DISPOSAL`,
       desc: `Now this is something we all do...`,
-      content: `Garbage bins, plastic bags, waste sewers, pits, and every other form of waste disposal methods lead to decomposition of organnic waste content, This actively releases Methane (CH4) which comes in second in  to carbon with about 16% prominence in total GHG.`,
+      content: `Garbage bins, plastic bags, waste sewers, pits, and every other form of waste disposal methods lead to decomposition of organnic waste content. This actively releases Methane (CH4) which comes in second in  to carbon with about 16% prominence in total GHG.`,
       align: `right`,
       button: false,
       accent: `WASTE`,

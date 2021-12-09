@@ -94,7 +94,7 @@ export default function Home() {
             <a>About us</a>
           </Link>
           <Link href='/'>
-            <a>Contact</a>
+            <a>Rankings</a>
           </Link>
         </nav>
 
