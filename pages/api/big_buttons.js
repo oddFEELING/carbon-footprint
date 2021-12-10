@@ -1,7 +1,7 @@
 export default function handler(req, res) {
   const data = [
     {
-      link: `/`,
+      link: `/list`,
       title: `CHECK RANKING`,
       desc: `View where you stand in comparison to other Users of the system`,
       bg: `bg_1`,

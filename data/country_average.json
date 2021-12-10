@@ -1,0 +1,1307 @@
+[
+	{
+		"Country": "Afghanistan",
+		"Code": "AFG",
+		"Year": "2020",
+		"emission": "0.3124"
+	},
+	{
+		"Country": "Albania",
+		"Code": "ALB",
+		"Year": "2020",
+		"emission": "1.5757"
+	},
+	{
+		"Country": "Algeria",
+		"Code": "DZA",
+		"Year": "2020",
+		"emission": "3.5346"
+	},
+	{
+		"Country": "Andorra",
+		"Code": "AND",
+		"Year": "2020",
+		"emission": "6.035"
+	},
+	{
+		"Country": "Angola",
+		"Code": "AGO",
+		"Year": "2020",
+		"emission": "0.6754"
+	},
+	{
+		"Country": "Anguilla",
+		"Code": "AIA",
+		"Year": "2020",
+		"emission": "8.2273"
+	},
+	{
+		"Country": "Antigua and Barbuda",
+		"Code": "ATG",
+		"Year": "2020",
+		"emission": "4.3952"
+	},
+	{
+		"Country": "Argentina",
+		"Code": "ARG",
+		"Year": "2020",
+		"emission": "3.4733"
+	},
+	{
+		"Country": "Armenia",
+		"Code": "ARM",
+		"Year": "2020",
+		"emission": "1.9878"
+	},
+	{
+		"Country": "Aruba",
+		"Code": "ABW",
+		"Year": "2020",
+		"emission": "7.0548"
+	},
+	{
+		"Country": "Australia",
+		"Code": "AUS",
+		"Year": "2020",
+		"emission": "15.3684"
+	},
+	{
+		"Country": "Austria",
+		"Code": "AUT",
+		"Year": "2020",
+		"emission": "6.7324"
+	},
+	{
+		"Country": "Azerbaijan",
+		"Code": "AZE",
+		"Year": "2020",
+		"emission": "3.7203"
+	},
+	{
+		"Country": "Bahamas",
+		"Code": "BHS",
+		"Year": "2020",
+		"emission": "5.9446"
+	},
+	{
+		"Country": "Bahrain",
+		"Code": "BHR",
+		"Year": "2020",
+		"emission": "20.5456"
+	},
+	{
+		"Country": "Bangladesh",
+		"Code": "BGD",
+		"Year": "2020",
+		"emission": "0.5637"
+	},
+	{
+		"Country": "Barbados",
+		"Code": "BRB",
+		"Year": "2020",
+		"emission": "3.7817"
+	},
+	{
+		"Country": "Belarus",
+		"Code": "BLR",
+		"Year": "2020",
+		"emission": "6.0793"
+	},
+	{
+		"Country": "Belgium",
+		"Code": "BEL",
+		"Year": "2020",
+		"emission": "7.2262"
+	},
+	{
+		"Country": "Belize",
+		"Code": "BLZ",
+		"Year": "2020",
+		"emission": "1.4657"
+	},
+	{
+		"Country": "Benin",
+		"Code": "BEN",
+		"Year": "2020",
+		"emission": "0.5529"
+	},
+	{
+		"Country": "Bermuda",
+		"Code": "BMU",
+		"Year": "2020",
+		"emission": "10.0276"
+	},
+	{
+		"Country": "Bhutan",
+		"Code": "BTN",
+		"Year": "2020",
+		"emission": "2.4953"
+	},
+	{
+		"Country": "Bolivia",
+		"Code": "BOL",
+		"Year": "2020",
+		"emission": "1.7733"
+	},
+	{
+		"Country": "Bonaire Sint Eustatius and Saba",
+		"Code": "BES",
+		"Year": "2020",
+		"emission": "11.4662"
+	},
+	{
+		"Country": "Bosnia and Herzegovina",
+		"Code": "BIH",
+		"Year": "2020",
+		"emission": "6.5282"
+	},
+	{
+		"Country": "Botswana",
+		"Code": "BWA",
+		"Year": "2020",
+		"emission": "2.7721"
+	},
+	{
+		"Country": "Brazil",
+		"Code": "BRA",
+		"Year": "2020",
+		"emission": "2.1988"
+	},
+	{
+		"Country": "British Virgin Islands",
+		"Code": "VGB",
+		"Year": "2020",
+		"emission": "4.6053"
+	},
+	{
+		"Country": "Brunei",
+		"Code": "BRN",
+		"Year": "2020",
+		"emission": "23.2203"
+	},
+	{
+		"Country": "Bulgaria",
+		"Code": "BGR",
+		"Year": "2020",
+		"emission": "5.3888"
+	},
+	{
+		"Country": "Burkina Faso",
+		"Code": "BFA",
+		"Year": "2020",
+		"emission": "0.1899"
+	},
+	{
+		"Country": "Burundi",
+		"Code": "BDI",
+		"Year": "2020",
+		"emission": "0.0506"
+	},
+	{
+		"Country": "Cambodia",
+		"Code": "KHM",
+		"Year": "2020",
+		"emission": "0.9167"
+	},
+	{
+		"Country": "Cameroon",
+		"Code": "CMR",
+		"Year": "2020",
+		"emission": "0.2595"
+	},
+	{
+		"Country": "Canada",
+		"Code": "CAN",
+		"Year": "2020",
+		"emission": "14.1969"
+	},
+	{
+		"Country": "Cape Verde",
+		"Code": "CPV",
+		"Year": "2020",
+		"emission": "0.9891"
+	},
+	{
+		"Country": "Central African Republic",
+		"Code": "CAF",
+		"Year": "2020",
+		"emission": "0.0389"
+	},
+	{
+		"Country": "Chad",
+		"Code": "TCD",
+		"Year": "2020",
+		"emission": "0.0555"
+	},
+	{
+		"Country": "Chile",
+		"Code": "CHL",
+		"Year": "2020",
+		"emission": "4.2462"
+	},
+	{
+		"Country": "China",
+		"Code": "CHN",
+		"Year": "2020",
+		"emission": "7.4117"
+	},
+	{
+		"Country": "Colombia",
+		"Code": "COL",
+		"Year": "2020",
+		"emission": "1.7512"
+	},
+	{
+		"Country": "Comoros",
+		"Code": "COM",
+		"Year": "2020",
+		"emission": "0.2972"
+	},
+	{
+		"Country": "Congo",
+		"Code": "COG",
+		"Year": "2020",
+		"emission": "0.5648"
+	},
+	{
+		"Country": "Cook Islands",
+		"Code": "COK",
+		"Year": "2020",
+		"emission": "4.5219"
+	},
+	{
+		"Country": "Costa Rica",
+		"Code": "CRI",
+		"Year": "2020",
+		"emission": "1.5523"
+	},
+	{
+		"Country": "Cote d'Ivoire",
+		"Code": "CIV",
+		"Year": "2020",
+		"emission": "0.3818"
+	},
+	{
+		"Country": "Croatia",
+		"Code": "HRV",
+		"Year": "2020",
+		"emission": "4.1366"
+	},
+	{
+		"Country": "Cuba",
+		"Code": "CUB",
+		"Year": "2020",
+		"emission": "1.7792"
+	},
+	{
+		"Country": "Curacao",
+		"Code": "CUW",
+		"Year": "2020",
+		"emission": "20.3234"
+	},
+	{
+		"Country": "Cyprus",
+		"Code": "CYP",
+		"Year": "2020",
+		"emission": "5.3805"
+	},
+	{
+		"Country": "Czechia",
+		"Code": "CZE",
+		"Year": "2020",
+		"emission": "8.215"
+	},
+	{
+		"Country": "Democratic Republic of Congo",
+		"Code": "COD",
+		"Year": "2020",
+		"emission": "0.0277"
+	},
+	{
+		"Country": "Denmark",
+		"Code": "DNK",
+		"Year": "2020",
+		"emission": "4.5224"
+	},
+	{
+		"Country": "Djibouti",
+		"Code": "DJI",
+		"Year": "2020",
+		"emission": "0.3557"
+	},
+	{
+		"Country": "Dominica",
+		"Code": "DMA",
+		"Year": "2020",
+		"emission": "1.9343"
+	},
+	{
+		"Country": "Dominican Republic",
+		"Code": "DOM",
+		"Year": "2020",
+		"emission": "2.5599"
+	},
+	{
+		"Country": "Ecuador",
+		"Code": "ECU",
+		"Year": "2020",
+		"emission": "1.7532"
+	},
+	{
+		"Country": "Egypt",
+		"Code": "EGY",
+		"Year": "2020",
+		"emission": "2.0859"
+	},
+	{
+		"Country": "El Salvador",
+		"Code": "SLV",
+		"Year": "2020",
+		"emission": "0.9441"
+	},
+	{
+		"Country": "Equatorial Guinea",
+		"Code": "GNQ",
+		"Year": "2020",
+		"emission": "7.3167"
+	},
+	{
+		"Country": "Eritrea",
+		"Code": "ERI",
+		"Year": "2020",
+		"emission": "0.2037"
+	},
+	{
+		"Country": "Estonia",
+		"Code": "EST",
+		"Year": "2020",
+		"emission": "7.8795"
+	},
+	{
+		"Country": "Eswatini",
+		"Code": "SWZ",
+		"Year": "2020",
+		"emission": "0.8238"
+	},
+	{
+		"Country": "Ethiopia",
+		"Code": "ETH",
+		"Year": "2020",
+		"emission": "0.1276"
+	},
+	{
+		"Country": "Faeroe Islands",
+		"Code": "FRO",
+		"Year": "2020",
+		"emission": "13.9957"
+	},
+	{
+		"Country": "Fiji",
+		"Code": "FJI",
+		"Year": "2020",
+		"emission": "1.5544"
+	},
+	{
+		"Country": "Finland",
+		"Code": "FIN",
+		"Year": "2020",
+		"emission": "7.0907"
+	},
+	{
+		"Country": "France",
+		"Code": "FRA",
+		"Year": "2020",
+		"emission": "4.2381"
+	},
+	{
+		"Country": "French Guiana",
+		"Code": "GUF",
+		"Year": "2020",
+		"emission": "2.4386"
+	},
+	{
+		"Country": "French Polynesia",
+		"Code": "PYF",
+		"Year": "2020",
+		"emission": "2.9486"
+	},
+	{
+		"Country": "Gabon",
+		"Code": "GAB",
+		"Year": "2020",
+		"emission": "1.9311"
+	},
+	{
+		"Country": "Gambia",
+		"Code": "GMB",
+		"Year": "2020",
+		"emission": "0.2069"
+	},
+	{
+		"Country": "Georgia",
+		"Code": "GEO",
+		"Year": "2020",
+		"emission": "2.4988"
+	},
+	{
+		"Country": "Germany",
+		"Code": "DEU",
+		"Year": "2020",
+		"emission": "7.6901"
+	},
+	{
+		"Country": "Ghana",
+		"Code": "GHA",
+		"Year": "2020",
+		"emission": "0.515"
+	},
+	{
+		"Country": "Greece",
+		"Code": "GRC",
+		"Year": "2020",
+		"emission": "5.0115"
+	},
+	{
+		"Country": "Greenland",
+		"Code": "GRL",
+		"Year": "2020",
+		"emission": "9.061"
+	},
+	{
+		"Country": "Grenada",
+		"Code": "GRD",
+		"Year": "2020",
+		"emission": "2.6203"
+	},
+	{
+		"Country": "Guadeloupe",
+		"Code": "GLP",
+		"Year": "2020",
+		"emission": "6.4027"
+	},
+	{
+		"Country": "Guatemala",
+		"Code": "GTM",
+		"Year": "2020",
+		"emission": "1.0571"
+	},
+	{
+		"Country": "Guinea",
+		"Code": "GIN",
+		"Year": "2020",
+		"emission": "0.2584"
+	},
+	{
+		"Country": "Guinea-Bissau",
+		"Code": "GNB",
+		"Year": "2020",
+		"emission": "0.1457"
+	},
+	{
+		"Country": "Guyana",
+		"Code": "GUY",
+		"Year": "2020",
+		"emission": "2.8131"
+	},
+	{
+		"Country": "Haiti",
+		"Code": "HTI",
+		"Year": "2020",
+		"emission": "0.256"
+	},
+	{
+		"Country": "Honduras",
+		"Code": "HND",
+		"Year": "2020",
+		"emission": "0.9753"
+	},
+	{
+		"Country": "Hong Kong",
+		"Code": "HKG",
+		"Year": "2020",
+		"emission": "4.1668"
+	},
+	{
+		"Country": "Hungary",
+		"Code": "HUN",
+		"Year": "2020",
+		"emission": "4.9973"
+	},
+	{
+		"Country": "Iceland",
+		"Code": "ISL",
+		"Year": "2020",
+		"emission": "8.6036"
+	},
+	{
+		"Country": "India",
+		"Code": "IND",
+		"Year": "2020",
+		"emission": "1.7694"
+	},
+	{
+		"Country": "Indonesia",
+		"Code": "IDN",
+		"Year": "2020",
+		"emission": "2.1552"
+	},
+	{
+		"Country": "Iran",
+		"Code": "IRN",
+		"Year": "2020",
+		"emission": "8.8702"
+	},
+	{
+		"Country": "Iraq",
+		"Code": "IRQ",
+		"Year": "2020",
+		"emission": "5.2416"
+	},
+	{
+		"Country": "Ireland",
+		"Code": "IRL",
+		"Year": "2020",
+		"emission": "6.7538"
+	},
+	{
+		"Country": "Israel",
+		"Code": "ISR",
+		"Year": "2020",
+		"emission": "6.5104"
+	},
+	{
+		"Country": "Italy",
+		"Code": "ITA",
+		"Year": "2020",
+		"emission": "5.0249"
+	},
+	{
+		"Country": "Jamaica",
+		"Code": "JAM",
+		"Year": "2020",
+		"emission": "2.509"
+	},
+	{
+		"Country": "Japan",
+		"Code": "JPN",
+		"Year": "2020",
+		"emission": "8.1499"
+	},
+	{
+		"Country": "Jordan",
+		"Code": "JOR",
+		"Year": "2020",
+		"emission": "2.498"
+	},
+	{
+		"Country": "Kazakhstan",
+		"Code": "KAZ",
+		"Year": "2020",
+		"emission": "15.5158"
+	},
+	{
+		"Country": "Kenya",
+		"Code": "KEN",
+		"Year": "2020",
+		"emission": "0.3003"
+	},
+	{
+		"Country": "Kiribati",
+		"Code": "KIR",
+		"Year": "2020",
+		"emission": "0.5699"
+	},
+	{
+		"Country": "Kuwait",
+		"Code": "KWT",
+		"Year": "2020",
+		"emission": "20.8251"
+	},
+	{
+		"Country": "Kyrgyzstan",
+		"Code": "KGZ",
+		"Year": "2020",
+		"emission": "1.7639"
+	},
+	{
+		"Country": "Laos",
+		"Code": "LAO",
+		"Year": "2020",
+		"emission": "4.6521"
+	},
+	{
+		"Country": "Latvia",
+		"Code": "LVA",
+		"Year": "2020",
+		"emission": "3.5907"
+	},
+	{
+		"Country": "Lebanon",
+		"Code": "LBN",
+		"Year": "2020",
+		"emission": "3.8048"
+	},
+	{
+		"Country": "Lesotho",
+		"Code": "LSO",
+		"Year": "2020",
+		"emission": "1.0192"
+	},
+	{
+		"Country": "Liberia",
+		"Code": "LBR",
+		"Year": "2020",
+		"emission": "0.1995"
+	},
+	{
+		"Country": "Libya",
+		"Code": "LBY",
+		"Year": "2020",
+		"emission": "7.3815"
+	},
+	{
+		"Country": "Liechtenstein",
+		"Code": "LIE",
+		"Year": "2020",
+		"emission": "3.6975"
+	},
+	{
+		"Country": "Lithuania",
+		"Code": "LTU",
+		"Year": "2020",
+		"emission": "5.0691"
+	},
+	{
+		"Country": "Luxembourg",
+		"Code": "LUX",
+		"Year": "2020",
+		"emission": "13.059"
+	},
+	{
+		"Country": "Macao",
+		"Code": "MAC",
+		"Year": "2020",
+		"emission": "1.9447"
+	},
+	{
+		"Country": "Madagascar",
+		"Code": "MDG",
+		"Year": "2020",
+		"emission": "0.1329"
+	},
+	{
+		"Country": "Malawi",
+		"Code": "MWI",
+		"Year": "2020",
+		"emission": "0.0729"
+	},
+	{
+		"Country": "Malaysia",
+		"Code": "MYS",
+		"Year": "2020",
+		"emission": "8.4226"
+	},
+	{
+		"Country": "Maldives",
+		"Code": "MDV",
+		"Year": "2020",
+		"emission": "3.3235"
+	},
+	{
+		"Country": "Mali",
+		"Code": "MLI",
+		"Year": "2020",
+		"emission": "0.1674"
+	},
+	{
+		"Country": "Malta",
+		"Code": "MLT",
+		"Year": "2020",
+		"emission": "3.6121"
+	},
+	{
+		"Country": "Marshall Islands",
+		"Code": "MHL",
+		"Year": "2020",
+		"emission": "2.5557"
+	},
+	{
+		"Country": "Martinique",
+		"Code": "MTQ",
+		"Year": "2020",
+		"emission": "6.258"
+	},
+	{
+		"Country": "Mauritania",
+		"Code": "MRT",
+		"Year": "2020",
+		"emission": "0.7263"
+	},
+	{
+		"Country": "Mauritius",
+		"Code": "MUS",
+		"Year": "2020",
+		"emission": "3.129"
+	},
+	{
+		"Country": "Mayotte",
+		"Code": "MYT",
+		"Year": "2020",
+		"emission": "1.1201"
+	},
+	{
+		"Country": "Mexico",
+		"Code": "MEX",
+		"Year": "2020",
+		"emission": "2.7686"
+	},
+	{
+		"Country": "Moldova",
+		"Code": "MDA",
+		"Year": "2020",
+		"emission": "1.2759"
+	},
+	{
+		"Country": "Mongolia",
+		"Code": "MNG",
+		"Year": "2020",
+		"emission": "26.978"
+	},
+	{
+		"Country": "Montenegro",
+		"Code": "MNE",
+		"Year": "2020",
+		"emission": "3.6778"
+	},
+	{
+		"Country": "Montserrat",
+		"Code": "MSR",
+		"Year": "2020",
+		"emission": "5.0646"
+	},
+	{
+		"Country": "Morocco",
+		"Code": "MAR",
+		"Year": "2020",
+		"emission": "1.7484"
+	},
+	{
+		"Country": "Mozambique",
+		"Code": "MOZ",
+		"Year": "2020",
+		"emission": "0.2102"
+	},
+	{
+		"Country": "Myanmar",
+		"Code": "MMR",
+		"Year": "2020",
+		"emission": "0.6676"
+	},
+	{
+		"Country": "Namibia",
+		"Code": "NAM",
+		"Year": "2020",
+		"emission": "1.5259"
+	},
+	{
+		"Country": "Nauru",
+		"Code": "NRU",
+		"Year": "2020",
+		"emission": "5.2364"
+	},
+	{
+		"Country": "Nepal",
+		"Code": "NPL",
+		"Year": "2020",
+		"emission": "0.582"
+	},
+	{
+		"Country": "Netherlands",
+		"Code": "NLD",
+		"Year": "2020",
+		"emission": "8.0596"
+	},
+	{
+		"Country": "New Caledonia",
+		"Code": "NCL",
+		"Year": "2020",
+		"emission": "30.4482"
+	},
+	{
+		"Country": "New Zealand",
+		"Code": "NZL",
+		"Year": "2020",
+		"emission": "6.9418"
+	},
+	{
+		"Country": "Nicaragua",
+		"Code": "NIC",
+		"Year": "2020",
+		"emission": "0.7659"
+	},
+	{
+		"Country": "Niger",
+		"Code": "NER",
+		"Year": "2020",
+		"emission": "0.0698"
+	},
+	{
+		"Country": "Nigeria",
+		"Code": "NGA",
+		"Year": "2020",
+		"emission": "0.6086"
+	},
+	{
+		"Country": "Niue",
+		"Code": "NIU",
+		"Year": "2020",
+		"emission": "7.0124"
+	},
+	{
+		"Country": "North Korea",
+		"Code": "PRK",
+		"Year": "2020",
+		"emission": "1.137"
+	},
+	{
+		"Country": "North Macedonia",
+		"Code": "MKD",
+		"Year": "2020",
+		"emission": "3.4302"
+	},
+	{
+		"Country": "Norway",
+		"Code": "NOR",
+		"Year": "2020",
+		"emission": "7.615"
+	},
+	{
+		"Country": "Oman",
+		"Code": "OMN",
+		"Year": "2020",
+		"emission": "12.1729"
+	},
+	{
+		"Country": "Pakistan",
+		"Code": "PAK",
+		"Year": "2020",
+		"emission": "1.0628"
+	},
+	{
+		"Country": "Palau",
+		"Code": "PLW",
+		"Year": "2020",
+		"emission": "12.1246"
+	},
+	{
+		"Country": "Palestine",
+		"Code": "PSE",
+		"Year": "2020",
+		"emission": "0.5682"
+	},
+	{
+		"Country": "Panama",
+		"Code": "PAN",
+		"Year": "2020",
+		"emission": "2.4983"
+	},
+	{
+		"Country": "Papua New Guinea",
+		"Code": "PNG",
+		"Year": "2020",
+		"emission": "0.7435"
+	},
+	{
+		"Country": "Paraguay",
+		"Code": "PRY",
+		"Year": "2020",
+		"emission": "1.0613"
+	},
+	{
+		"Country": "Peru",
+		"Code": "PER",
+		"Year": "2020",
+		"emission": "1.3559"
+	},
+	{
+		"Country": "Philippines",
+		"Code": "PHL",
+		"Year": "2020",
+		"emission": "1.2413"
+	},
+	{
+		"Country": "Poland",
+		"Code": "POL",
+		"Year": "2020",
+		"emission": "7.916"
+	},
+	{
+		"Country": "Portugal",
+		"Code": "PRT",
+		"Year": "2020",
+		"emission": "3.9609"
+	},
+	{
+		"Country": "Qatar",
+		"Code": "QAT",
+		"Year": "2020",
+		"emission": "37.0193"
+	},
+	{
+		"Country": "Reunion",
+		"Code": "REU",
+		"Year": "2020",
+		"emission": "5.1244"
+	},
+	{
+		"Country": "Romania",
+		"Code": "ROU",
+		"Year": "2020",
+		"emission": "3.7154"
+	},
+	{
+		"Country": "Russia",
+		"Code": "RUS",
+		"Year": "2020",
+		"emission": "10.8072"
+	},
+	{
+		"Country": "Rwanda",
+		"Code": "RWA",
+		"Year": "2020",
+		"emission": "0.0797"
+	},
+	{
+		"Country": "Saint Helena",
+		"Code": "SHN",
+		"Year": "2020",
+		"emission": "1.5638"
+	},
+	{
+		"Country": "Saint Kitts and Nevis",
+		"Code": "KNA",
+		"Year": "2020",
+		"emission": "3.9863"
+	},
+	{
+		"Country": "Saint Lucia",
+		"Code": "LCA",
+		"Year": "2020",
+		"emission": "2.3956"
+	},
+	{
+		"Country": "Saint Pierre and Miquelon",
+		"Code": "SPM",
+		"Year": "2020",
+		"emission": "8.7379"
+	},
+	{
+		"Country": "Saint Vincent and the Grenadines",
+		"Code": "VCT",
+		"Year": "2020",
+		"emission": "1.8827"
+	},
+	{
+		"Country": "Samoa",
+		"Code": "WSM",
+		"Year": "2020",
+		"emission": "1.239"
+	},
+	{
+		"Country": "Sao Tome and Principe",
+		"Code": "STP",
+		"Year": "2020",
+		"emission": "0.5144"
+	},
+	{
+		"Country": "Saudi Arabia",
+		"Code": "SAU",
+		"Year": "2020",
+		"emission": "17.9672"
+	},
+	{
+		"Country": "Senegal",
+		"Code": "SEN",
+		"Year": "2020",
+		"emission": "0.6242"
+	},
+	{
+		"Country": "Serbia",
+		"Code": "SRB",
+		"Year": "2020",
+		"emission": "4.9369"
+	},
+	{
+		"Country": "Seychelles",
+		"Code": "SYC",
+		"Year": "2020",
+		"emission": "4.9936"
+	},
+	{
+		"Country": "Sierra Leone",
+		"Code": "SLE",
+		"Year": "2020",
+		"emission": "0.11"
+	},
+	{
+		"Country": "Singapore",
+		"Code": "SGP",
+		"Year": "2020",
+		"emission": "7.778"
+	},
+	{
+		"Country": "Sint Maarten (Dutch part)",
+		"Code": "SXM",
+		"Year": "2020",
+		"emission": "14.539"
+	},
+	{
+		"Country": "Slovakia",
+		"Code": "SVK",
+		"Year": "2020",
+		"emission": "5.6286"
+	},
+	{
+		"Country": "Slovenia",
+		"Code": "SVN",
+		"Year": "2020",
+		"emission": "6.043"
+	},
+	{
+		"Country": "Solomon Islands",
+		"Code": "SLB",
+		"Year": "2020",
+		"emission": "0.435"
+	},
+	{
+		"Country": "Somalia",
+		"Code": "SOM",
+		"Year": "2020",
+		"emission": "0.0354"
+	},
+	{
+		"Country": "South Africa",
+		"Code": "ZAF",
+		"Year": "2020",
+		"emission": "7.6204"
+	},
+	{
+		"Country": "South Korea",
+		"Code": "KOR",
+		"Year": "2020",
+		"emission": "11.6562"
+	},
+	{
+		"Country": "South Sudan",
+		"Code": "SSD",
+		"Year": "2020",
+		"emission": "0.1053"
+	},
+	{
+		"Country": "Spain",
+		"Code": "ESP",
+		"Year": "2020",
+		"emission": "4.4683"
+	},
+	{
+		"Country": "Sri Lanka",
+		"Code": "LKA",
+		"Year": "2020",
+		"emission": "0.9857"
+	},
+	{
+		"Country": "Sudan",
+		"Code": "SDN",
+		"Year": "2020",
+		"emission": "0.4301"
+	},
+	{
+		"Country": "Suriname",
+		"Code": "SUR",
+		"Year": "2020",
+		"emission": "3.7914"
+	},
+	{
+		"Country": "Sweden",
+		"Code": "SWE",
+		"Year": "2020",
+		"emission": "3.8255"
+	},
+	{
+		"Country": "Switzerland",
+		"Code": "CHE",
+		"Year": "2020",
+		"emission": "3.7319"
+	},
+	{
+		"Country": "Syria",
+		"Code": "SYR",
+		"Year": "2020",
+		"emission": "1.7446"
+	},
+	{
+		"Country": "Taiwan",
+		"Code": "TWN",
+		"Year": "2020",
+		"emission": "11.4698"
+	},
+	{
+		"Country": "Tajikistan",
+		"Code": "TJK",
+		"Year": "2020",
+		"emission": "0.9906"
+	},
+	{
+		"Country": "Tanzania",
+		"Code": "TZA",
+		"Year": "2020",
+		"emission": "0.1831"
+	},
+	{
+		"Country": "Thailand",
+		"Code": "THA",
+		"Year": "2020",
+		"emission": "3.6929"
+	},
+	{
+		"Country": "Timor",
+		"Code": "TLS",
+		"Year": "2020",
+		"emission": "0.3987"
+	},
+	{
+		"Country": "Togo",
+		"Code": "TGO",
+		"Year": "2020",
+		"emission": "0.2647"
+	},
+	{
+		"Country": "Tonga",
+		"Code": "TON",
+		"Year": "2020",
+		"emission": "1.3597"
+	},
+	{
+		"Country": "Trinidad and Tobago",
+		"Code": "TTO",
+		"Year": "2020",
+		"emission": "25.3731"
+	},
+	{
+		"Country": "Tunisia",
+		"Code": "TUN",
+		"Year": "2020",
+		"emission": "2.3799"
+	},
+	{
+		"Country": "Turkey",
+		"Code": "TUR",
+		"Year": "2020",
+		"emission": "4.6573"
+	},
+	{
+		"Country": "Turkmenistan",
+		"Code": "TKM",
+		"Year": "2020",
+		"emission": "12.4914"
+	},
+	{
+		"Country": "Turks and Caicos Islands",
+		"Code": "TCA",
+		"Year": "2020",
+		"emission": "5.2313"
+	},
+	{
+		"Country": "Tuvalu",
+		"Code": "TUV",
+		"Year": "2020",
+		"emission": "0.6415"
+	},
+	{
+		"Country": "Uganda",
+		"Code": "UGA",
+		"Year": "2020",
+		"emission": "0.107"
+	},
+	{
+		"Country": "Ukraine",
+		"Code": "UKR",
+		"Year": "2020",
+		"emission": "4.8912"
+	},
+	{
+		"Country": "United Arab Emirates",
+		"Code": "ARE",
+		"Year": "2020",
+		"emission": "15.1933"
+	},
+	{
+		"Country": "United Kingdom",
+		"Code": "GBR",
+		"Year": "2020",
+		"emission": "4.8549"
+	},
+	{
+		"Country": "United States",
+		"Code": "USA",
+		"Year": "2020",
+		"emission": "14.2379"
+	},
+	{
+		"Country": "Uruguay",
+		"Code": "URY",
+		"Year": "2020",
+		"emission": "1.6812"
+	},
+	{
+		"Country": "Uzbekistan",
+		"Code": "UZB",
+		"Year": "2020",
+		"emission": "3.3698"
+	},
+	{
+		"Country": "Vanuatu",
+		"Code": "VUT",
+		"Year": "2020",
+		"emission": "0.591"
+	},
+	{
+		"Country": "Venezuela",
+		"Code": "VEN",
+		"Year": "2020",
+		"emission": "2.9754"
+	},
+	{
+		"Country": "Vietnam",
+		"Code": "VNM",
+		"Year": "2020",
+		"emission": "2.6126"
+	},
+	{
+		"Country": "World",
+		"Code": "OWID_WRL",
+		"Year": "2020",
+		"emission": "4.4654"
+	},
+	{
+		"Country": "Yemen",
+		"Code": "YEM",
+		"Year": "2020",
+		"emission": "0.3275"
+	},
+	{
+		"Country": "Zambia",
+		"Code": "ZMB",
+		"Year": "2020",
+		"emission": "0.3575"
+	},
+	{
+		"Country": "Zimbabwe",
+		"Code": "ZWE",
+		"Year": "2020",
+		"emission": "0.7086"
+	},
+	{
+		"Country": ""
+	}
+]
