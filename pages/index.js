@@ -90,7 +90,7 @@ export default function Home() {
           <Link href='/track'>
             <a>Track</a>
           </Link>
-          <Link href='/'>
+          <Link href='/about'>
             <a>About us</a>
           </Link>
           <Link href='/'>

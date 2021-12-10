@@ -1,0 +1,96 @@
+@use './theme.module.scss' as *;
+
+.container {
+  @include Div(100vh, 100%, row, color('color_1'));
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.swiper__container {
+  @include Div(100vh, 100%, row, color('color_1'));
+  align-items: center;
+}
+
+.logo {
+  position: fixed;
+  z-index: 40;
+  left: 2vw;
+  top: 2vh;
+
+  &:hover {
+    transform: scale(1.05);
+    animation: spin 800ms ease-in-out forwards;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(0) scale(1);
+  }
+  50% {
+    transform: rotateX(360deg) scale(1.2);
+  }
+  100% {
+    transform: rotateX(7200deg) scale(1.05);
+  }
+}
+
+.swiper__object {
+  @include Div(100%, 100%, row, color('color_1'));
+}
+
+.swiper__item_container {
+  @include Div(100%, 100%, row, color('color_1'));
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section__image {
+  @include Div(100vh, 50vw, row, blue);
+  min-width: 40vw;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+
+.content__area {
+  @include Div(100vh, 60vw, column, transparent);
+  text-align: right;
+  padding: 5vh 5vw;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: $pr_font;
+  position: relative;
+
+  h1 {
+    font-size: clamp(2rem, 7vw, 15rem);
+    font-weight: 800;
+    letter-spacing: 0.5vw;
+  }
+
+  h2 {
+    font-family: $sc_font;
+    font-size: clamp(1rem, 1.5vw, 10rem);
+    font-weight: 400;
+    width: 70%;
+    color: color('color_2');
+    font-style: italic;
+  }
+}
+.accent {
+  width: 10vw;
+  position: absolute;
+  bottom: 3vh;
+  left: 1vw;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  font-size: clamp(2rem, 9vw, 25rem);
+  color: rgba(color('color_2'), 0.08);
+  letter-spacing: 2vh;
+}
+
+.img {
+  object-fit: cover;
+  object-position: center;
+}

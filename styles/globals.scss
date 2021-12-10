@@ -36,6 +36,7 @@ a:hover::after {
   margin: 0;
   padding: 0;
   transition: 300ms all ease-in-out;
+  cursor: url('../assets/icons/cursor.svg'), auto;
 }
 
 .error__div {
