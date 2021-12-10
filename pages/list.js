@@ -10,7 +10,7 @@ import styles from '../styles/list.module.scss';
 const List = () => {
   return (
     <div className={styles.container}>
-      <h1> Countries and their annual average CO2e emission </h1>
+      <h1> Countries and their annual average CO2e emission Per Capita </h1>
       <p className={styles.tag__line}>
         This list would be converted to a list of top carbon conservative users
       </p>
@@ -24,7 +24,7 @@ const List = () => {
           >
             <TableCell>Country name</TableCell>
             <TableCell>Country tag</TableCell>
-            <TableCell>Country emission</TableCell>
+            <TableCell>Per Capita emission</TableCell>
           </TableHead>
           {Data.map((data, index) => {
             return (

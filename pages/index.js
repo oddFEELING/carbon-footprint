@@ -93,7 +93,7 @@ export default function Home() {
           <Link href='/about'>
             <a>About us</a>
           </Link>
-          <Link href='/'>
+          <Link href='/list'>
             <a>Rankings</a>
           </Link>
         </nav>

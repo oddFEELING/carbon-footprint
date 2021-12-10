@@ -47,7 +47,7 @@
 }
 
 .section__image {
-  @include Div(100vh, 50vw, row, blue);
+  @include Div(100vh, 45vw, row, blue);
   min-width: 40vw;
   align-items: center;
   position: relative;

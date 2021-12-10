@@ -13,7 +13,7 @@ import Image from 'next/image';
 import styles from '../styles/about.module.scss';
 import axios from 'axios';
 
-const about = () => {
+const About = () => {
   const [Data, setData] = useState([]);
   const Images = [AreImage, AllImage, AboutImage, ChangeImage, HeroImage];
   //-->  default options for slider component
@@ -84,4 +84,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
