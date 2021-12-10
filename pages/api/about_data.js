@@ -3,7 +3,7 @@ export default function handler(req, res) {
     {
       title: `ARE`,
       tagline: `We all want to be seen not for the choices we made ten years ago, but for who we are today.`,
-      accent: `ARE`,
+      accent: `CAN`,
     },
     {
       title: `ALL`,
@@ -13,12 +13,12 @@ export default function handler(req, res) {
     {
       title: `ABOUT`,
       tagline: `We have forgotten how to be good guests, how to walk lightly on the earth as its other creatures do.The proper use of science is not to conquer nature but to live in it`,
-      accent: `TO`,
+      accent: `SAVE`,
     },
     {
       title: `CHANGE`,
       tagline: `Just as Buildings are built ground up, Changes are to be made from ground up.`,
-      accent: `CHANGE`,
+      accent: `EARTH`,
     },
     {
       title: `HEROES`,
