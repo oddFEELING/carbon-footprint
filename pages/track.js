@@ -347,10 +347,14 @@ const Track = () => {
           <h3>
             <b>{FootPrint > 0 ? FootPrint : 0}</b> tonnes of CO2e
           </h3>
-          <p>
-            Your most emission comes from<b> {max.section}</b> with{' '}
-            <b>{max.value.toFixed(3)}</b> tonnes of CO2e per day
-          </p>
+          {max.value > 0 ? (
+            <p>
+              Your most emission comes from<b> {max.section}</b> with{' '}
+              <b>{max.value.toFixed(3)}</b> tonnes of CO2e per day
+            </p>
+          ) : (
+            <p>{''}</p>
+          )}
           <button className={styles.res__close} onClick={reverseRes}>
             X Close
           </button>
