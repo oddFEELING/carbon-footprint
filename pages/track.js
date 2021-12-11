@@ -343,7 +343,7 @@ const Track = () => {
           data-aos-duration='800'
           data-aos-ease='ease-out'
         >
-          <h1>Your carbon footprint is </h1>
+          <h1>Your annual carbon footprint is </h1>
           <h3>
             <b>{FootPrint > 0 ? FootPrint : 0}</b> tonnes of CO2e
           </h3>
