@@ -28,11 +28,8 @@
   0% {
     transform: rotateX(0) scale(1);
   }
-  50% {
-    transform: rotateX(360deg) scale(1.2);
-  }
   100% {
-    transform: rotateX(7200deg) scale(1.05);
+    transform: rotateX(360deg) scale(1.2);
   }
 }
 
