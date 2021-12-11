@@ -7,7 +7,7 @@ const useScreen = () => {
     setScreenSIze(window.innerWidth);
     // set hanlder
     function handleScreen() {
-      if (window.innerWidth <= 1100) {
+      if (window.innerWidth <= 1000) {
         setIsSmall(true);
       } else {
         setIsSmall(false);
