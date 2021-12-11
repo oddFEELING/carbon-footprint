@@ -1,0 +1,88 @@
+@use './theme.module.scss' as *;
+
+.container {
+  @include Div(auto, 100%, column, color('color_1'));
+  min-height: 100vh;
+  font-family: $pr_font;
+  color: color('color_2');
+  align-items: center;
+  padding: 5vh 10vw;
+  gap: 5vh;
+
+  a {
+    font-size: clamp(1rem, 1.7vw, 6rem);
+    font-weight: 800;
+  }
+}
+
+.logo {
+  position: fixed;
+  z-index: 40;
+  left: 2vw;
+  top: 2vh;
+
+  &:hover {
+    transform: scale(1.1);
+    animation: spin 800ms ease-in-out forwards;
+  }
+}
+
+.card__container {
+  @include Div(auto, 100%, row, transparent);
+  min-height: 800px;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
+  flex-wrap: wrap;
+}
+
+.card__item {
+  @include Div(550px, 30%, column, rgb(243, 243, 243));
+  border-radius: 0.7vw;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: color('color_1');
+
+  &:hover {
+    transform: scale(1.08);
+    z-index: 5;
+  }
+}
+
+.card__image {
+  @include Div(60%, 100%, row, transparent);
+  position: relative;
+}
+
+.klin {
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.card__text_area {
+  @include Div(60%, 100%, column, transparent);
+  padding: 0.4vh 2vw;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+
+  h1 {
+    font-size: clamp(1rem, 1.5vw, 4rem);
+    font-weight: 800;
+  }
+
+  h2 {
+    font-size: clamp(1rem, 0.9vw, 3rem);
+    margin-top: -15px;
+    font-weight: 600;
+  }
+
+  p {
+    font-family: $sc_font;
+    font-size: clamp(0.8rem, 0.8vw, 2rem);
+  }
+}
+
+.separator {
+  @include Div(1%, 100%, row, color('color_1'));
+}

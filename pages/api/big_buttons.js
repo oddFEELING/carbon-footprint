@@ -12,10 +12,10 @@ export default function handler(req, res) {
       title: `TRACK FOOT-PRINT`,
       desc: `Track your current carbon footprint`,
       bg: `bg_2`,
-      btn: 'Fill form',
+      btn: 'Run tracker',
     },
     {
-      link: `/`,
+      link: `/learn`,
       title: `LEARN MORE`,
       desc: `Learn more about carbon dioxide and its effects as well as other GHG, their CO2e and GWP`,
       bg: `bg_3`,

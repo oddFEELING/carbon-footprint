@@ -167,3 +167,15 @@
     color: color('color_4');
   }
 }
+
+.logo {
+  position: fixed;
+  z-index: 40;
+  left: 2vw;
+  top: 2vh;
+
+  &:hover {
+    transform: scale(1.1);
+    animation: spin 800ms ease-in-out forwards;
+  }
+}
