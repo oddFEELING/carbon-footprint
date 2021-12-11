@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import AOS from 'aos';
-import convert from '../hooks/convert';
+import { convert, max } from '../hooks/convert';
 import styles from '../styles/track.module.scss';
 
 const Track = () => {
@@ -49,6 +49,7 @@ const Track = () => {
 
   function handleServe() {
     setResult(true);
+    console.log(`The Maximum emission is: ${JSON.stringify(max)}`);
     console.log(UserData);
   }
   function reverseRes() {
@@ -346,7 +347,10 @@ const Track = () => {
           <h3>
             <b>{FootPrint > 0 ? FootPrint : 0}</b> tonnes of CO2e
           </h3>
-          <p>Check Full object in console</p>
+          <p>
+            Your most emission comes from<b> {max.section}</b> with{' '}
+            <b>{max.value.toFixed(3)}</b> tonnes of CO2e per day
+          </p>
           <button className={styles.res__close} onClick={reverseRes}>
             X Close
           </button>

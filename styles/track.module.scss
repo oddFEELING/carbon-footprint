@@ -114,6 +114,7 @@
   background-position: center;
   background-size: cover;
   text-align: center;
+  padding: 2vh 2vw;
   font-family: $pr_font;
   word-wrap: break-word;
   backdrop-filter: blur(3px);
@@ -135,6 +136,16 @@
   b {
     color: color('color_3');
     font-size: clamp(1rem, 5.4vw, 10rem);
+  }
+
+  p {
+    color: color('color_2');
+    font-size: clamp(1rem, 1.4vw, 10rem);
+
+    b {
+      color: color('color_3');
+      font-size: clamp(1rem, 1.4vw, 10rem);
+    }
   }
 }
 

@@ -1,5 +1,10 @@
 import React from 'react';
 
+let max = {
+  value: 0,
+  section: '',
+};
+
 const convert = (props) => {
   let CARBON_TOTAL = 0;
   let electric;
@@ -88,6 +93,30 @@ const convert = (props) => {
     handlePub();
     handleFlight();
 
+    // get max consumption
+    max.value = Math.max(
+      electric,
+      entertainment,
+      light,
+      personalVehicle,
+      publicVehicle,
+      flight
+    );
+
+    if (max.value === electric) {
+      max.section = `electric`;
+    } else if (max.value === entertainment) {
+      max.section = `entertainment`;
+    } else if (max.value === light) {
+      max.section = `Light`;
+    } else if (max.value === personalVehicle) {
+      max.section = `personalVehicle`;
+    } else if (max.value === publicVehicle) {
+      max.section = `publicVehicle`;
+    } else if (max.value === flight) {
+      max.section = `flight`;
+    }
+
     //   add all
     CARBON_TOTAL =
       electric +
@@ -101,4 +130,4 @@ const convert = (props) => {
   return (CARBON_TOTAL * 365).toFixed(3);
 };
 
-export default convert;
+export { convert, max };
