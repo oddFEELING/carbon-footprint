@@ -61,6 +61,24 @@ export default function Home() {
     },
   ];
 
+  function handleHome() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
+
+  // effect to get old user
+  useEffect(() => {
+    const oldUser = localStorage.getItem('firstTime');
+    setTimeout(() => {
+      if (!oldUser) {
+        alert('🌹 Click on the oddSPACE logo at the top left to go back home');
+        localStorage.setItem('firstTime', 'done');
+      }
+    }, 3000);
+  }, []);
+
   useEffect(() => {
     (async function () {
       // alert('Some links do not work');
@@ -81,7 +99,7 @@ export default function Home() {
           rel='stylesheet'
         ></link>
       </Head>
-      <div className={styles.logo}>
+      <div className={styles.logo} onClick={handleHome}>
         <Image src={Logo} alt='' width='130' height='40' />
       </div>
       <header className={styles.header}>

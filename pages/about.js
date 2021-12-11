@@ -25,17 +25,6 @@ const About = () => {
     speed: 1200,
   };
 
-  // effect to get old user
-  useEffect(() => {
-    const oldUser = localStorage.getItem('firstTime');
-    setTimeout(() => {
-      if (!oldUser) {
-        alert('🌹 Click on the oddSPACE logo at the top left to go back home');
-        localStorage.setItem('firstTime', 'done');
-      }
-    }, 3000);
-  }, []);
-
   useEffect(() => {
     //   get data from api
     (async function () {
