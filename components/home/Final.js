@@ -11,6 +11,7 @@ const Final = () => {
     (async function () {
       AOS.init({
         duration: 1300,
+        once: true,
       });
 
       await axios.get('/api/big_buttons').then((res) => {
